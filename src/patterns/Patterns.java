@@ -2,8 +2,17 @@ package patterns;
 
 public class Patterns {
     public static void main(String[] args) {
-        int i = 97;
-        System.out.println((char) i);
+        pattern2(5);
+    }
+
+    static void pattern2(int n){
+
+        for (int row = 0 ; row < n ; row ++ ){
+            for (int col = 0 ; col < row + 1 ; col ++ ){
+                System.out.print(row + 1);
+            }
+            System.out.println();
+        }
     }
 
     static void pattern1(int n){
