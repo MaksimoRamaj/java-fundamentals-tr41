@@ -3,8 +3,7 @@ package ushtrimi7;
 public class FibonnaciDemo {
     public static void main(String[] args) {
         //0,1,1,2,3,5,8,13,21....
-
-        System.out.println(fibo(100));
+        System.out.println(fibo(6));
     }
 
     public static double fibo(int index){
